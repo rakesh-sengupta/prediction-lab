@@ -23,7 +23,7 @@ the quiz slides. Letter case and spaces are ignored. This is a pacing aid, not s
 anyone who reads the page source can find the word. Once unlocked, the lab stays open in
 that browser tab.
 
-## The model (stated in the lab too)
+## The model
 
 - **Learning:** the temporal-difference (TD) rule of the paper (Eqs. 3–5): each light is
   represented as a chain of signals, one for each 100 ms step after it came on, each with its
@@ -39,13 +39,7 @@ that browser tab.
   reward. This is left in on purpose: the quiz asks students to notice and discuss it.
 - Recording (Parts 2 and 4) does not change the weights.
 
-## Publishing on GitHub Pages
 
-1. Create a new **public** repository named exactly `prediction-lab` (the quiz slides' QR
-   code expects this name).
-2. Upload everything in this folder, keeping the `lib/` folder and the hidden `.nojekyll`.
-3. **Settings → Pages**: Deploy from a branch, branch **main**, folder **/ (root)**, Save.
-4. After a minute or two: `https://rakesh-sengupta.github.io/prediction-lab/`
 
 ## Credits
 
